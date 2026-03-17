@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: Survival_prediction_mlops3
+Version: 0.2
+Author: Hareesh Kumar
+Requires-Dist: setuptools
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: requires-dist
