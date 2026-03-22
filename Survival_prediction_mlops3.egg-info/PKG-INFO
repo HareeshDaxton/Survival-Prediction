@@ -7,5 +7,13 @@ Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: matplotlib
 Requires-Dist: scikit-learn
+Requires-Dist: apache-airflow-providers-postgres
+Requires-Dist: psycopg2-binary
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn
+Requires-Dist: redis
+Requires-Dist: flask
+Requires-Dist: alibi-detect
+Requires-Dist: prometheus_client
 Dynamic: author
 Dynamic: requires-dist
