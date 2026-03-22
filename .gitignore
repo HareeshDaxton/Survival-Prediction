@@ -11,4 +11,4 @@ airflow.cfg
 airflow.db
 survival_venv/
 include/
-Survival_prediction_mlops3.egg-info/
+Survival_prediction_mlops3.egg-info
