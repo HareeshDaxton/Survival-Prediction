@@ -4,9 +4,6 @@ numpy
 matplotlib
 scikit-learn
 apache-airflow-providers-postgres
-scikit-learn
-imbalanced-learn
 redis
-flask
-alibi-detect
-prometheus_client
+
+
