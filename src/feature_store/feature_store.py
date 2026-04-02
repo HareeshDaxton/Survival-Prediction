@@ -2,7 +2,7 @@ import redis
 import json
 
 class FeatureStore:
-    def __init__(self, host='localhost', port=6370, db=0):
+    def __init__(self, host='localhost', port=6379, db=0):
         self.redis_client = redis.StrictRedis(host=host, port=port, db=db,  decode_responses=True)
         
         
@@ -11,9 +11,9 @@ class FeatureStore:
         self.redis_client.set(key, json.dumps(features))
         
         
-    def get_features(self, entity_id, features):
+    def get_features(self, entity_id):
         key = f'entity:{entity_id}:features'
-        feqtures = self.redis_client.get(key)
+        features = self.redis_client.get(key)
         if features:
             return json.loads(features)
         return None
